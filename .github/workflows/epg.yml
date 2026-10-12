@@ -1,0 +1,50 @@
+name: Türkiye EPG
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+  schedule:
+    - cron: '17 2,8,14,20 * * *'
+permissions:
+  contents: read
+concurrency:
+  group: epg-pages
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Load pinned EPG engine
+        run: |
+          git init upstream
+          git -C upstream remote add origin https://github.com/iptv-org/epg.git
+          git -C upstream fetch --depth 1 origin "$(cat UPSTREAM_REVISION)"
+          git -C upstream checkout --detach FETCH_HEAD
+      - name: Install dependencies
+        working-directory: upstream
+        run: npm ci
+      - name: Collect guide
+        working-directory: upstream
+        run: npm run grab -- --channels=../channels.xml --output=../public/tr.xml --days=2 --maxConnections=1 --timeout=30000
+      - name: Validate current coverage
+        run: python3 scripts/validate.py public/tr.xml channels.xml
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: public
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/deploy-pages@v4
+        id: deployment
