@@ -1,24 +1,22 @@
 <?xml version='1.0' encoding='utf-8'?>
 <channels>
-  <channel site="digiturk.com.tr" site_id="30" lang="tr" xmltv_id="360.tr">360</channel>
-  <channel site="digiturk.com.tr" site_id="490" lang="tr" xmltv_id="A2.tr">A2</channel>
-  <channel site="digiturk.com.tr" site_id="301" lang="tr" xmltv_id="AHABER.tr">AHABER</channel>
-  <channel site="digiturk.com.tr" site_id="300" lang="tr" xmltv_id="ATV.tr">ATV</channel>
-  <channel site="digiturk.com.tr" site_id="188" lang="tr" xmltv_id="BEYAZ TV.tr">BEYAZ TV</channel>
-  <channel site="digiturk.com.tr" site_id="24" lang="tr" xmltv_id="BLOOMBERG HT.tr">BLOOMBERG HT</channel>
-  <channel site="digiturk.com.tr" site_id="29" lang="tr" xmltv_id="CNN TURK.tr">CNN TURK</channel>
-  <channel site="digiturk.com.tr" site_id="18" lang="tr" xmltv_id="NOW.tr">NOW</channel>
-  <channel site="digiturk.com.tr" site_id="31" lang="tr" xmltv_id="HABERTURK.tr">HABERTURK</channel>
-  <channel site="digiturk.com.tr" site_id="298" lang="tr" xmltv_id="HALK TV.tr">HALK TV</channel>
-  <channel site="digiturk.com.tr" site_id="439" lang="tr" xmltv_id="KANAL 7.tr">KANAL 7</channel>
-  <channel site="digiturk.com.tr" site_id="430" lang="tr" xmltv_id="KANAL D.tr">KANAL D</channel>
-  <channel site="digiturk.com.tr" site_id="28" lang="tr" xmltv_id="NTV.tr">NTV</channel>
-  <channel site="digiturk.com.tr" site_id="294" lang="tr" xmltv_id="SHOW TV.tr">SHOW TV</channel>
-  <channel site="digiturk.com.tr" site_id="406" lang="tr" xmltv_id="STAR TV.tr">STAR TV</channel>
-  <channel site="digiturk.com.tr" site_id="19" lang="tr" xmltv_id="TRT 1.tr">TRT 1</channel>
-  <channel site="digiturk.com.tr" site_id="244" lang="tr" xmltv_id="TRT AVAZ.tr">TRT AVAZ</channel>
-  <channel site="digiturk.com.tr" site_id="243" lang="tr" xmltv_id="TRT ÇOCUK.tr">TRT ÇOCUK</channel>
-  <channel site="digiturk.com.tr" site_id="20" lang="tr" xmltv_id="TRT HABER.tr">TRT HABER</channel>
-  <channel site="digiturk.com.tr" site_id="331" lang="tr" xmltv_id="TRT SPOR.tr">TRT SPOR</channel>
-  <channel site="digiturk.com.tr" site_id="428" lang="tr" xmltv_id="TV8.tr">TV8</channel>
+  <channel site="tvplus.com.tr" site_id="86" lang="tr" logo="https://gbzottvsc13.tvplus.com.tr:33207/CPS/images/universal/film/logo/202506/20250623/45/0909261639285eb88428_op_0_XL.webp" xmltv_id="360.tr">360</channel>
+  <channel site="tvplus.com.tr" site_id="2" lang="tr" logo="https://gbzottvsc13.tvplus.com.tr:33207/CPS/images/universal/film/logo/202506/20250623/1/0914264009815eb8f42a_op_0_XL.webp" xmltv_id="A2.tr">A2</channel>
+  <channel site="tvplus.com.tr" site_id="160" lang="tr" logo="https://gbzottvsc13.tvplus.com.tr:33207/CPS/images/universal/film/logo/202506/20250623/78/0910272687595eb78424_op_0_XL.webp" xmltv_id="AHABER.tr">AHABER</channel>
+  <channel site="tvplus.com.tr" site_id="124" lang="tr" logo="https://gbzottvsc13.tvplus.com.tr:33207/CPS/images/universal/film/logo/202506/20250623/71/0916028009315eb88428_op_0_XL.webp" xmltv_id="ATV.tr">ATV</channel>
+  <channel site="tvplus.com.tr" site_id="135" lang="tr" logo="https://gbzottvsc13.tvplus.com.tr:33207/CPS/images/universal/film/logo/202505/20250514/53/2113355458665eb9b42e_op_0_XL.webp" xmltv_id="BEYAZ TV.tr">BEYAZ TV</channel>
+  <channel site="tvplus.com.tr" site_id="96" lang="tr" logo="https://gbzottvsc13.tvplus.com.tr:33207/CPS/images/universal/film/logo/202506/20250623/89/0918582099855eb8f42a_op_0_XL.webp" xmltv_id="BLOOMBERG HT.tr">BLOOMBERG HT</channel>
+  <channel site="tvplus.com.tr" site_id="91" lang="tr" logo="https://gbzottvsc13.tvplus.com.tr:33207/CPS/images/universal/film/logo/202505/20250514/57/2112191538425eb78424_op_0_XL.webp" xmltv_id="HALK TV.tr">HALK TV</channel>
+  <channel site="tvplus.com.tr" site_id="90" lang="tr" logo="https://gbzottvsc13.tvplus.com.tr:33207/CPS/images/universal/film/logo/202505/20250514/7/2112241317575eb7f426_op_0_XL.webp" xmltv_id="KANAL 7.tr">KANAL 7</channel>
+  <channel site="tvplus.com.tr" site_id="88" lang="tr" logo="https://gbzottvsc13.tvplus.com.tr:33207/CPS/images/universal/film/logo/202506/20250623/87/0937065579965eb8f42a_op_0_XL.webp" xmltv_id="KANAL D.tr">KANAL D</channel>
+  <channel site="tvplus.com.tr" site_id="93" lang="tr" logo="https://gbzottvsc13.tvplus.com.tr:33207/CPS/images/universal/film/logo/202506/20250623/82/0947057422345eb7f426_op_0_XL.webp" xmltv_id="NOW.tr">NOW</channel>
+  <channel site="tvplus.com.tr" site_id="81" lang="tr" logo="https://gbzottvsc13.tvplus.com.tr:33207/CPS/images/universal/film/logo/202506/20250623/36/0947520532355eb7f426_op_0_XL.webp" xmltv_id="NTV.tr">NTV</channel>
+  <channel site="tvplus.com.tr" site_id="130" lang="tr" logo="https://gbzottvsc13.tvplus.com.tr:33207/CPS/images/universal/film/logo/202506/20250623/96/0948464043915eb9542c_op_0_XL.webp" xmltv_id="SHOW TV.tr">SHOW TV</channel>
+  <channel site="tvplus.com.tr" site_id="89" lang="tr" logo="https://gbzottvsc13.tvplus.com.tr:33207/CPS/images/universal/film/logo/202506/20250623/64/1003520560175eb8f42a_op_0_XL.webp" xmltv_id="STAR TV.tr">STAR TV</channel>
+  <channel site="tvplus.com.tr" site_id="144" lang="tr" logo="https://gbzottvsc13.tvplus.com.tr:33207/CPS/images/universal/film/logo/202506/20250623/6/1025405808145eb9b42e_op_0_XL.webp" xmltv_id="TRT 1.tr">TRT 1</channel>
+  <channel site="tvplus.com.tr" site_id="193" lang="tr" logo="https://gbzottvsc13.tvplus.com.tr:33207/CPS/images/universal/film/logo/202506/20250623/94/1016079562535eb8f42a_op_0_XL.webp" xmltv_id="TRT AVAZ.tr">TRT AVAZ</channel>
+  <channel site="tvplus.com.tr" site_id="99" lang="tr" logo="https://gbzottvsc13.tvplus.com.tr:33207/CPS/images/universal/film/logo/202506/20250623/92/1018103992555eb8f42a_op_0_XL.webp" xmltv_id="TRT ÇOCUK.tr">TRT ÇOCUK</channel>
+  <channel site="tvplus.com.tr" site_id="30" lang="tr" logo="https://gbzottvsc13.tvplus.com.tr:33207/CPS/images/universal/film/logo/202506/20250623/0/1020177474605eb9542c_op_0_XL.webp" xmltv_id="TRT HABER.tr">TRT HABER</channel>
+  <channel site="tvplus.com.tr" site_id="31" lang="tr" logo="https://gbzottvsc13.tvplus.com.tr:33207/CPS/images/universal/film/logo/202506/20250623/64/1023220948135eb9b42e_op_0_XL.webp" xmltv_id="TRT SPOR.tr">TRT SPOR</channel>
+  <channel site="tvplus.com.tr" site_id="134" lang="tr" logo="https://gbzottvsc13.tvplus.com.tr:33207/CPS/images/universal/film/logo/202506/20250623/98/1026575965175eb78424_op_0_XL.webp" xmltv_id="TV8.tr">TV8</channel>
 </channels>
